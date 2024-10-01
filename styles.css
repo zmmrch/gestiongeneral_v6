@@ -1,0 +1,153 @@
+/* Base styles */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer, #about {
+    background-image: url(./img/FONDO\ GG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #1d5078;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2rem;
+    padding-left: 5%;
+    text-align: left;
+}
+
+h2, h3 {
+    font-size: 2rem;
+    text-align: left;
+}
+
+p {
+    color: #1d5078;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+p.masthead-heading {
+    padding-left: 5% !important;
+}
+
+i {
+    font-size: 2rem;
+}
+
+#logo {
+    width: 150px;
+}
+
+#logo_cuadrado {
+    width: 80px;
+}
+
+.btn-primary {
+    background-color: white !important;
+    border-color: #1d5078 !important;
+    color: #1d5078 !important;
+}
+
+.btn-primary:hover {
+    background-color: #1d5078 !important;
+    color: white !important;
+}
+
+.btn-outline-primary {
+    border-color: #1d5078 !important;
+    color: #1d5078 !important;
+}
+
+.btn-outline-primary:hover {        
+    background-color: #1d5078 !important;   
+    color: white !important;
+}
+
+#botones {
+    padding-right: 2% !important;
+}
+
+#titulos {
+    background-image: url(./img/FONDO\ GG.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 1%; 
+}
+
+#copyright {
+    color: #1d5078 !important;
+    padding-left: 5%;
+    font-size: 18px;
+}
+
+/* Medium screens (tablets and small desktops) */
+@media screen and (max-width: 1400px) {
+    p {
+        font-size: 1rem !important;
+    }
+
+    .card {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    #serv_texto {
+        color: white !important;
+        font-size: 1.2rem !important;
+    }
+
+    #serv_subtexto {
+        color: white !important;
+        font-size: 1rem !important;
+    }
+}
+
+/* Small screens (mobile devices) */
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 1rem;
+    }
+
+    #logo {
+        width: 100px;
+    }
+
+    h5 {
+        font-size: 1rem !important;
+        text-align: center !important;
+    }
+
+    #botones {
+        text-align: center !important;
+        padding-right: 0% !important;
+        padding-left: 0% !important;
+        margin-top: 2% !important;
+        margin-bottom: 2% !important;
+    }
+
+    #botones .btn {
+        margin: 1% !important;
+        width: 100% !important;
+        padding-right: 1% !important;
+        padding-left: 1% !important;
+    }
+
+    #titulos {
+        text-align: center !important;
+    }
+
+    .col-md-3 {
+        align-items: center !important;
+    }
+
+    #copyright {
+        font-size: 14px;
+        text-align: center;
+    }
+}
