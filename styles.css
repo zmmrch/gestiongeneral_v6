@@ -107,6 +107,11 @@ i {
     padding: 1%; 
 }
 
+.card {
+    width: 100% !important;
+    height: 80% !important;
+}
+
 #copyright {
     color: #1d5078 !important;
     padding-left: 5%;
@@ -205,7 +210,7 @@ i {
 }
 
 /* Small screens (mobile devices) in landscape mode */
-@media screen and (min-width: 480px) and (max-width: 900px) and (orientation: landscape) {
+@media screen and (min-width: 480px) and (max-width: 768px) and (orientation: landscape) {
     body {
         font-size: 14px;
     }
