@@ -46,16 +46,17 @@ i {
     font-size: 2rem;
 }
 
+#whatsapp {
+    font-size: 0.9rem !important;
+    color: white !important;
+}
+
 #logo {
     width: 150px;
 }
 
-#logo_cuadrado {
+#logo_cuadrado, #logo_footer {
     width: 80px;
-}
-
-.bi bi-whatsapp {
-    font-size: 15px !important;
 }
 
 .btn-primary {
@@ -78,10 +79,6 @@ i {
     background-color: #1d5078 !important;   
     color: white !important;
 }
-
-/* #botones {
-    padding-right: 2% !important;
-} */
 
 .floating{
     position: fixed;
@@ -107,15 +104,32 @@ i {
     padding: 1%; 
 }
 
+#custom-cards {
+    margin-bottom: -5% !important;
+}
+
 .card {
     width: 100% !important;
     height: 80% !important;
 }
 
+#tarjeta {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.card-title {
+    color: #1d5078;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
 #copyright {
     color: #1d5078 !important;
     padding-left: 5%;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 /* Medium screens (tablets and small desktops) */
@@ -131,12 +145,12 @@ i {
 
     #serv_texto {
         color: white !important;
-        font-size: 1.2rem !important;
+        font-size: 1.3rem !important;
     }
 
     #serv_subtexto {
         color: white !important;
-        font-size: 1rem !important;
+        font-size: 1.2rem !important;
     }
     
 }
@@ -144,12 +158,18 @@ i {
 /* Small screens (mobile devices) in portrait mode */
 @media screen and (max-width: 768px) and (orientation: portrait) {
     p {
-        font-size: 0.8rem !important;
+        font-size: 1rem !important;
     }
 
     #logo {
         width: 90px;
-        margin-left: -100% !important;
+        margin-top: 35% !important;
+        margin-left: -80% !important;
+    }
+
+    #logo_footer {
+        width: 90px;
+        margin-right: 200% !important;
     }
 
     h5 {
@@ -157,28 +177,13 @@ i {
         text-align: center !important;
     }
 
-    /* #botones {
-        text-align: center !important;
-        padding-right: 0% !important;
-        padding-left: 0% !important;
-        margin-top: 2% !important;
-        margin-bottom: 2% !important;
-    }
-
-    #botones .btn {
-        margin: 1% !important;
-        width: 100% !important;
-        padding-right: 1% !important;
-        padding-left: 1% !important;
-    } */
-
     .floating{
         position: fixed;
-        top: 20px;
+        top: 10px;
         z-index: 9999;
         right: 20px;
         display: flex;
-        flex-direction: column ;
+        flex-direction: row;
         margin-bottom: 10px;
     } 
 
@@ -191,8 +196,8 @@ i {
     }
 
     #ingenieria {
-        font-size: 0.6rem !important;
-        margin-left: -90% !important;
+        font-size: 0.8rem !important;
+        margin-left: -50% !important;
     }
 
     #titulos {
@@ -204,8 +209,12 @@ i {
     }
 
     #copyright {
-        font-size: 14px;
-        text-align: center;
+        font-size: 12px !important;
+        text-align: left !important;
+    }
+
+    #custom-cards {
+        margin-bottom: -10% !important;
     }
 }
 
@@ -257,7 +266,7 @@ i {
     }
 
     #copyright {
-        font-size: 14px;
+        font-size: 12px !important;
         text-align: left;
         padding-left: 2%;
     }
@@ -266,5 +275,9 @@ i {
         width: 48% !important;
         display: inline-block !important;
         margin: 1% !important;
+    }
+
+    #custom-cards {
+        margin-bottom: -30% !important;
     }
 }
