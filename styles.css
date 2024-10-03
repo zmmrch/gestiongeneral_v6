@@ -104,13 +104,17 @@ i {
     padding: 1%; 
 }
 
-#custom-cards {
+/* #custom-cards {
     margin-bottom: -5% !important;
+} */
+
+#card-services {
+    margin-bottom: -3% !important;
 }
 
 .card {
     width: 100% !important;
-    height: 80% !important;
+    /* height: 80% !important; */
 }
 
 #tarjeta {
@@ -140,7 +144,7 @@ i {
 
     .card {
         width: 100% !important;
-        height: 80% !important;
+        /* height: 80% !important; */
     }
 
     #serv_texto {
@@ -212,10 +216,6 @@ i {
         font-size: 12px !important;
         text-align: left !important;
     }
-
-    #custom-cards {
-        margin-bottom: -10% !important;
-    }
 }
 
 /* Small screens (mobile devices) in landscape mode */
@@ -262,12 +262,14 @@ i {
     }
 
     .card {
-        width: 48% !important;
+        /* width: 48% !important;
         display: inline-block !important;
-        margin: 1% !important;
+        margin: 1% !important; */
     }
 
     #custom-cards {
-        margin-bottom: -30% !important;
+        /* margin-bottom: -30% !important; */
     }
 }
+
+ 
