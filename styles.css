@@ -142,19 +142,25 @@ i {
         font-size: 1rem !important;
     }
 
+    #ingenieria {
+        font-size: 0.8rem !important;
+        margin-left: -10% !important;
+    }
+
     .card {
         width: 100% !important;
-        /* height: 80% !important; */
+        height: 80% !important;
     }
 
     #serv_texto {
         color: white !important;
-        font-size: 1.3rem !important;
+        font-size: 0.8rem !important;
     }
 
     #serv_subtexto {
         color: white !important;
-        font-size: 1.2rem !important;
+        font-size: 0.8rem !important;
+        text-wrap: wrap !important;
     }
     
 }
@@ -167,8 +173,13 @@ i {
 
     #logo {
         width: 90px;
-        margin-top: 40% !important;
+        margin-top: 60% !important;
         margin-left: -80% !important;
+    }
+
+    #ingenieria {
+        font-size: 0.8rem !important;
+        margin-left: -10% !important;
     }
 
     #logo_footer {
@@ -179,6 +190,22 @@ i {
     h5 {
         font-size: 1rem !important;
         text-align: center !important;
+    }
+
+    .card {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    #serv_texto {
+        color: white !important;
+        font-size: 1.2rem !important;
+    }
+
+    #serv_subtexto {
+        color: white !important;
+        font-size: 1.2rem !important;
+        text-wrap: wrap !important;
     }
 
     .floating{
@@ -215,7 +242,7 @@ i {
     #copyright {
         font-size: 12px !important;
         text-align: left !important;
-    }
+    }    
 }
 
 /* Small screens (mobile devices) in landscape mode */
@@ -262,14 +289,37 @@ i {
     }
 
     .card {
-        /* width: 48% !important;
-        display: inline-block !important;
-        margin: 1% !important; */
+        width: 100% !important;
+        height: 100% !important;
     }
 
-    #custom-cards {
-        /* margin-bottom: -30% !important; */
-    }
+    .swiffy-slider {
+        /* Aquí van tus estilos para dispositivos móviles */
+      width: 100%;
+      height: 150px;
+      margin: 0 auto;
+      padding: 20px;
+      font-size: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      touch-action: pan-y;
+      }
 }
 
+ /* Estilos para dispositivos móviles */
+ @media (max-width: 768px) {
+    #nuestros-clientes-slider {
+      /* Aquí van tus estilos para dispositivos móviles */
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    touch-action: pan-y;
+    }
+  }
  
