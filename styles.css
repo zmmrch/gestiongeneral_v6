@@ -4,21 +4,27 @@ body {
 }
 
 footer, #about {
-    background-image: url(./img/FONDO\ GG.jpg);
+    background-color: #032e46;
+    background-image: url(./img/FONDO\ PARA\ WEB.png); 
+    background-size: cover; 
+    background-position: center;  
+    padding: 1%; 
+    
+    /* background-image: url(./img/FONDO\ GG.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 h1, h2, h3, h4, h5 {
-    color: #1d5078;
+    color: white;
     font-weight: bold;
-}
+} 
 
 i {
-    color: #1d5078 !important;
+    color: white!important;
     font-weight: bold !important;
-    font-size: 1rem !important;
+    font-size: 2rem !important;
 }
 
 h1 {
@@ -40,23 +46,29 @@ p {
 
 p.masthead-heading {
     padding-left: 5% !important;
+    color: white;
 }
 
-i {
-    font-size: 2rem;
+#ingenieria {
+    color: #1d5078 !important;
 }
 
-#whatsapp {
+/* #whatsapp {
     font-size: 0.9rem !important;
     color: white !important;
-}
+} */
 
 #logo {
     width: 150px;
 }
 
-#logo_cuadrado, #logo_footer {
+#logo_cuadrado {
     width: 80px;
+}
+
+#logo_footer {
+    width: 230px;
+    padding-left: 5% !important;
 }
 
 .btn-primary {
@@ -65,12 +77,16 @@ i {
     color: #1d5078 !important;
 }
 
+.btn-primary.bi, .btn-success.bi {
+    font-size: 2rem !important;
+}
+
 .btn-primary:hover {
     background-color: #1d5078 !important;
     color: white !important;
 }
 
-.btn-outline-primary {
+/* .btn-outline-primary {
     border-color: #1d5078 !important;
     color: #1d5078 !important;
 }
@@ -78,7 +94,7 @@ i {
 .btn-outline-primary:hover {        
     background-color: #1d5078 !important;   
     color: white !important;
-}
+} */
 
 .floating{
     position: fixed;
@@ -98,7 +114,8 @@ i {
 }
 
 #titulos {
-    background-image: url(./img/FONDO\ GG.jpg); 
+    background-color: #032e46;
+    background-image: url(./img/FONDO\ PARA\ WEB.png); 
     background-size: cover; 
     background-position: center; 
     padding: 1%; 
@@ -107,6 +124,41 @@ i {
 /* #custom-cards {
     margin-bottom: -5% !important;
 } */
+
+.card-img-top {
+    width: 100%;
+    object-fit: contain;
+    padding-top: 5%;
+}
+
+.card-title {
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+    color: #25295A !important;
+    line-height: 100% !important;
+}
+
+.card-text {
+    font-size: 80% !important;
+    color: #25295A !important;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #032e46;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #ACA7CF;
+}
 
 #card-services {
     margin-bottom: -3% !important;
@@ -117,10 +169,10 @@ i {
     /* height: 80% !important; */
 }
 
-#tarjeta {
+/* #tarjeta {
     width: 100% !important;
     height: 100% !important;
-}
+} */
 
 .card-title {
     color: #1d5078;
@@ -131,7 +183,7 @@ i {
 }
 
 #copyright {
-    color: #1d5078 !important;
+    color:white !important;
     padding-left: 5%;
     font-size: 14px;
 }
@@ -162,7 +214,11 @@ i {
         font-size: 0.8rem !important;
         text-wrap: wrap !important;
     }
-    
+
+    .container-fluid {
+        margin-top: 1px !important;
+    }
+
 }
 
 /* Small screens (mobile devices) in portrait mode */
@@ -172,7 +228,7 @@ i {
     }
 
     #logo {
-        width: 90px;
+        width: 120px;
         margin-top: 60% !important;
         margin-left: -80% !important;
     }
@@ -183,8 +239,22 @@ i {
     }
 
     #logo_footer {
-        width: 90px;
-        margin-right: 200% !important;
+        width: 120px;
+    }
+
+    .footer {
+        align-items: center !important;
+        text-align: center !important;
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        align-content: center !important;
     }
 
     h5 {
@@ -212,15 +282,15 @@ i {
         position: fixed;
         top: 1%;
         z-index: 9999;
-        right: 10%;
+        /* right: 10%; */
         display: flex;
         flex-direction: row;
         margin-bottom: 10px;
     } 
 
     .floating .btn {
-        width: 85px;
-        height: 40px;
+        width: 90px;
+        height: 50px;
         text-align: center;
         padding: 0;
         font-size: 11px;
@@ -242,7 +312,11 @@ i {
     #copyright {
         font-size: 12px !important;
         text-align: left !important;
-    }    
+    }  
+
+    .container-fluid {
+        margin-top: 1px !important;
+    }
 }
 
 /* Small screens (mobile devices) in landscape mode */
@@ -304,7 +378,7 @@ i {
       justify-content: center;
       align-items: center;
       touch-action: pan-y;
-      }
+    }
 }
 
  /* Estilos para dispositivos móviles */
