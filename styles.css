@@ -7,7 +7,8 @@ footer, #about {
     background-color: #032e46;
     background-image: url(./img/FONDO\ PARA\ WEB.png); 
     background-size: cover; 
-    background-position: center;  
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 1%; 
     
     /* background-image: url(./img/FONDO\ GG.jpg);
