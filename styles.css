@@ -325,7 +325,7 @@ h5.masthead-heading {
     }
 
     #logo {
-        width: 120px;
+        width: 120px !important;
         margin-left: -100% !important;
     }
 
@@ -383,4 +383,4 @@ h5.masthead-heading {
     touch-action: pan-y;
     }
   }
- 
+
