@@ -5,7 +5,7 @@ body {
 
 footer, #about {
     background-color: #032e46;
-    background-image: url(./img/FONDO-PARA-WEB_2.jpg); 
+    background-image: url(./img/FONDO-PARA-WEB_3.jpg); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -68,7 +68,8 @@ h5.masthead-heading {
 
 .btn-primary {
     background-color: white !important;
-    border-color: #1d5078 !important;
+    /* border-color: #1d5078 !important; */
+    border-width: 0;
     color: #1d5078 !important;
 }
 
@@ -78,9 +79,34 @@ h5.masthead-heading {
 }
 
 .btn-primary:hover {
-    background-color: #1d5078 !important;
-    color: white !important;
-    border-color: #1d5078 !important;
+    /* background-color: #1d5078 !important; */
+    color: #3e91d1 !important;
+    /* border-color: #1d5078 !important; */
+}
+
+.btn-primary:hover::after, .btn-success:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+    color: #1d5078;
+    font-size: 11px;
+}
+
+.btn-success {
+    background-color: white !important;
+    border-width: 0;
+    color: #05770c !important;
+}
+
+.btn-success:hover {
+    color: #06b011 !important;
 }
 
 .floating{
@@ -98,8 +124,7 @@ h5.masthead-heading {
 }
 
 #titulos {
-    /* background-color: #033a57; */
-    background-image: url(./img/FONDO-PARA-WEB_2.jpg); 
+    background-image: url(./img/FONDO-PARA-WEB_3.jpg); 
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center; ;
@@ -175,7 +200,7 @@ h5.masthead-heading {
 
     .card {
         width: 100% !important;
-        height: 80% !important;
+        height: 100% !important;
     }
 
     #tarjeta {
@@ -196,6 +221,10 @@ h5.masthead-heading {
 
     .container-fluid {
         margin-top: 1px !important;
+    }
+
+    .row {
+        margin-top: 2% !important;
     }
 
 }
@@ -228,22 +257,6 @@ h5.masthead-heading {
         margin-top: 2% !important;
         width: 120px;
     }
-
-
-    /* .footer {
-        align-items: center !important;
-        text-align: center !important;
-        margin-left: 0% !important;
-        margin-right: 0% !important;
-        padding-left: 0% !important;
-        padding-right: 0% !important;
-        width: 100% !important;
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: center !important;
-        align-items: center !important;
-        align-content: center !important;
-    } */
 
     h5 {
         font-size: 1rem !important;
