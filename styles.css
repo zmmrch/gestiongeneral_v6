@@ -67,15 +67,18 @@ h5.masthead-heading {
 }
 
 .btn-primary {
-    background-color: white !important;
-    /* border-color: #1d5078 !important; */
+    background-color: transparent !important;
     border-width: 0;
-    color: #1d5078 !important;
+    color: #0369b7 !important;
 }
 
 .btn-primary.bi, .btn-success.bi {
     font-size: 2rem !important;
-    border-color: #1d5078 !important;
+    border-color: #275b7d !important;
+}
+
+.bi-envelope {
+    border-color: white !important;
 }
 
 .btn-primary:hover {
@@ -100,9 +103,9 @@ h5.masthead-heading {
 }
 
 .btn-success {
-    background-color: white !important;
+    background-color: transparent !important;
     border-width: 0;
-    color: #05770c !important;
+    color: #008d09 !important;
 }
 
 .btn-success:hover {
