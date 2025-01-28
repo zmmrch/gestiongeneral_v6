@@ -191,6 +191,10 @@ h5.masthead-heading {
     font-size: 14px;
 }
 
+#exampleModalLabel {
+    color: #1d5078;
+}
+
 /* Medium screens (tablets and small desktops) */
 @media screen and (max-width: 1400px) {
     p {
