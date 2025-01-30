@@ -135,6 +135,19 @@ h5.masthead-heading {
     padding: 1%; 
 }
 
+#serv_texto {
+    color: white !important;
+    font-size: 1.8rem !important;
+    margin-left: 5% !important; 
+    margin-top: 5% !important;
+}
+
+#serv_subtexto {
+    color: white !important;
+    font-size: 1.5rem !important;
+    text-wrap: wrap !important;
+}
+
 .card-img-top {
     width: 100%;
     object-fit: contain;
@@ -219,6 +232,8 @@ h5.masthead-heading {
     #serv_texto {
         color: white !important;
         font-size: 0.8rem !important;
+        margin-left: 5% !important; 
+        margin-top: 5% !important;
     }
 
     #serv_subtexto {
@@ -284,6 +299,8 @@ h5.masthead-heading {
     #serv_texto {
         color: white !important;
         font-size: 1.2rem !important;
+        margin-left: 5% !important; 
+        margin-top: 5% !important;
     }
 
     #serv_subtexto {
