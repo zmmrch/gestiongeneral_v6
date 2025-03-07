@@ -5,7 +5,7 @@ body {
 
 footer, #about {
     background-color: #032e46;
-    background-image: url(./img/FONDO-PARA-WEB_3.jpg); 
+    background-image: url(./img/FONDO-PARA-WEB.jpg); 
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -128,7 +128,7 @@ h5.masthead-heading {
 }
 
 #titulos {
-    background-image: url(./img/FONDO-PARA-WEB_3.jpg); 
+    background-image: url(./img/FONDO-PARA-WEB.jpg); 
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center; ;
